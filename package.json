@@ -1,0 +1,39 @@
+{
+    "name": "perfect_gal_server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "ts-node-dev --respawn src/server.ts",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/bcrypt": "^5.0.2",
+      "@types/express": "^5.0.0",
+      "@types/jsonwebtoken": "^9.0.7",
+      "@types/node": "^22.9.0",
+      "@types/nodemailer": "^6.4.16",
+      "typescript": "^5.6.3"
+    },
+    "dependencies": {
+      "@types/axios": "^0.9.36",
+      "@types/twilio": "^3.19.2",
+      "argon2": "^0.41.1",
+      "axios": "^1.7.7",
+      "bcrypt": "^5.1.1",
+      "body-parser": "^1.20.3",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "express": "^4.21.1",
+      "joi": "^17.13.3",
+      "jsonwebtoken": "^9.0.2",
+      "mysql2": "^3.11.4",
+      "nodemailer": "^6.9.16",
+      "sequelize": "^6.37.5",
+      "ts-node": "^10.9.2",
+      "ts-node-dev": "^2.0.0"
+    },
+    "description": ""
+  }
